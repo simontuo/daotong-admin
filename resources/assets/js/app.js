@@ -8,6 +8,10 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+window.ElementUI = require('element-ui');
+window.VCharts = require('v-charts');
+
+bus = new Vue();
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
